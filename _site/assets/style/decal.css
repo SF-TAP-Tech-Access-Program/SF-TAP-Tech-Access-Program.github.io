@@ -1,0 +1,32 @@
+html {
+  background: url(../img/download2.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+html body {
+  font-family: Avenir;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+html body #wrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 33%;
+  background-color: cornsilk;
+  padding: 3%;
+}
+@media screen and (max-width: 768px) {
+  html body #wrapper {
+    width: 66%;
+    padding: 5%;
+  }
+  html body #wrapper h1 {
+    font-size: 6vw;
+  }
+}
+
+/*# sourceMappingURL=decal.css.map */
